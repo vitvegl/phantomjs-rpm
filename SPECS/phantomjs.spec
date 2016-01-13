@@ -14,6 +14,8 @@ Source:         https://bitbucket.org/ariya/phantomjs/downloads/%{name}-%{versio
 BuildRequires:  pkgconfig
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
+BuildRequires:  libstdc++
+BuildRequires:  libstdc++-devel
 BuildRequires:  make
 BuildRequires:  flex
 BuildRequires:  bison

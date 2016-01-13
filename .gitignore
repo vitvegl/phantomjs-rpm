@@ -1,5 +1,6 @@
 BUILD*
 *RPMS
 SOURCES/*.tar.?z
+SOURCES/*.zip
 SPECS/.*.swp
 SPECS/*~

@@ -1,41 +1,41 @@
-%define name	phantomjs
+%define name phantomjs
 %define version	2.0.0
 %define release 1
 
-Summary:	a headless WebKit with JavaScript API
-Name:     phantomjs
-Version:	2.0.0
-Release:  1%{?dist}.qg
-License:	BSD
-Group:		Utilities/Misc
-BuildRoot: %{_topdir}/BUILDROOT
-Source:   https://bitbucket.org/ariya/phantomjs/downloads/%{name}-%{version}-source.zip
+Summary:        a headless WebKit with JavaScript API
+Name:           phantomjs
+Version:        2.0.0
+Release:        1%{?dist}.qg
+License:        BSD
+Group:          Utilities/Misc
+BuildRoot:      %{_topdir}/BUILDROOT
+Source:         https://bitbucket.org/ariya/phantomjs/downloads/%{name}-%{version}-source.zip
 
-BuildRequires: pkgconfig
-BuildRequires: gcc
-BuildRequires: gcc-c++
-BuildRequires: make
-BuildRequires: flex
-BuildRequires: bison
-BuildRequires: gperf
-BuildRequires: ruby
-BuildRequires: openssl-devel
-BuildRequires: freetype-devel
-BuildRequires: fontconfig-devel
-BuildRequires: libicu-devel
-BuildRequires: sqlite-devel
-BuildRequires: libpng-devel
-BuildRequires: libjpeg-devel
-BuildRequires: alsa-lib-devel
-BuildRequires: cups-devel
-BuildRequires: mesa-libGL-devel
-BuildRequires: mesa-libEGL-devel
-BuildRequires: pulseaudio-libs-devel
-BuildRequires: glib-devel
-BuildRequires: libxkbcommon-devel
-BuildRequires: systemd-devel
-BuildRequires: mtdev-devel
-Requires:      urw-fonts
+BuildRequires:  pkgconfig
+BuildRequires:  gcc
+BuildRequires:  gcc-c++
+BuildRequires:  make
+BuildRequires:  flex
+BuildRequires:  bison
+BuildRequires:  gperf
+BuildRequires:  ruby
+BuildRequires:  openssl-devel
+BuildRequires:  freetype-devel
+BuildRequires:  fontconfig-devel
+BuildRequires:  libicu-devel
+BuildRequires:  sqlite-devel
+BuildRequires:  libpng-devel
+BuildRequires:  libjpeg-devel
+BuildRequires:  alsa-lib-devel
+BuildRequires:  cups-devel
+BuildRequires:  mesa-libGL-devel
+BuildRequires:  mesa-libEGL-devel
+BuildRequires:  pulseaudio-libs-devel
+BuildRequires:  glib-devel
+BuildRequires:  libxkbcommon-devel
+BuildRequires:  systemd-devel
+BuildRequires:  mtdev-devel
+Requires:       urw-fonts
 
 %description
 PhantomJS is a headless WebKit with JavaScript API. It has fast and native

@@ -10,6 +10,7 @@ License:        BSD
 Group:          Utilities/Misc
 BuildRoot:      %{_topdir}/BUILDROOT
 Source:         https://bitbucket.org/ariya/phantomjs/downloads/%{name}-%{version}-source.zip
+Patch0:         JSObject.patch
 
 BuildRequires:  pkgconfig
 BuildRequires:  gcc
@@ -68,6 +69,8 @@ cp README.md %{buildroot}%{_datadir}/%{name}/
 %changelog
 * Wed Jan 13 2016 <vitvegl@quintagroup.org>
 - rebuilt for fc22
+- https://github.com/ariya/phantomjs/issues/13265
+- https://codereview.qt-project.org/#/c/107921/3/Source/JavaScriptCore/runtime/JSObject.cpp (fix)
 
 * Fri Jul 17 2015 <vitvegl@quintagroup.org>
 - rebuilt for fc21

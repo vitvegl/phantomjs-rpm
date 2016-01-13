@@ -1,0 +1,5 @@
+BUILD*
+*RPMS
+SOURCES/*.tar.?z
+SPECS/.*.swp
+SPECS/*~
